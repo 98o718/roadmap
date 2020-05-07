@@ -1,0 +1,17 @@
+@import './normalize.css';
+@import './fonts';
+
+@import './blocks/header.scss';
+@import './blocks/nav.scss';
+@import './blocks/poster.scss';
+@import './blocks/intro.scss';
+@import './blocks/team.scss';
+@import './blocks/member.scss';
+@import './blocks/testimonials.scss';
+@import './blocks/newsletter.scss';
+@import './blocks/footer.scss';
+
+body {
+  font-family: 'Mplus 1p';
+  color: #30233d;
+}

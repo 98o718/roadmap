@@ -1,0 +1,38 @@
+.poster {
+  height: 360px;
+  width: 100%;
+  background-image: url('/assets/poster.jpg');
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 110px 150px;
+  box-sizing: border-box;
+  font-style: normal;
+
+  @media (max-width: 576px) {
+    padding: 10px 20px;
+  }
+
+  &__header {
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 80px;
+    color: #f61067;
+    margin: 0;
+    margin-bottom: 15px;
+
+    @media (max-width: 576px) {
+      font-size: 2rem;
+    }
+  }
+
+  &__text {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #f4f4ed;
+    margin: 0;
+  }
+}

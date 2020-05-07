@@ -1,0 +1,22 @@
+.nav {
+  &__link {
+    display: inline-block;
+    margin: 30px;
+    text-decoration: none;
+    transition: 0.2s;
+
+    @media (max-width: 576px) {
+      display: none;
+    }
+
+    &:focus,
+    &:hover {
+      outline: none;
+      transform: scale(1.1);
+    }
+
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+}
